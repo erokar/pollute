@@ -1,4 +1,4 @@
-module.exports = makeGlobal = (library, includeFunctions = null) ->
+module.exports = pollute = (library, includeFunctions = null) ->
   if includeFunctions
     @[key] = library[key] for key in includeFunctions
   else
