@@ -1,6 +1,6 @@
 {
   "name": "climate-change",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "Import modules or functions to global namespace",
   "main": "lib/main.js",
   "scripts": {
