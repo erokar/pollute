@@ -1,8 +1,8 @@
 {
   "name": "climate-change",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "Import modules or functions to global namespace",
-  "main": "lib/main.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
