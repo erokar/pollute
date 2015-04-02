@@ -5,7 +5,7 @@ Include node libraries in global namespace.
 
 ```javascript
 npm install climate-change --save
-
+```
 
 ## Example usage
 
@@ -13,6 +13,7 @@ npm install climate-change --save
 var climate-change = require('climate-change');
 climate-change.pollute(_, ['min', 'max']);
 min([1, 2, 3])
+```
 
 ## climate-change.pollute(library, arrayOfFunctionNames)
 
@@ -21,10 +22,12 @@ names to include in the global namespace.
 
 ```javascript
 climate-change.pollute(_);
+```
 
 Will make all of underscore's functions available in the global namespace.
 
 ```javascript
 climate-change.pollute(_, ['map', 'filter']);
+```
 
-Will make just the map and filter functions available in the global namespace. 
+Will make just the map and filter functions available in the global namespace.
