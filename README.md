@@ -10,8 +10,8 @@ npm install climate-change --save
 ## Example usage
 
 ```javascript
-var climate-change = require('climate-change');
-climate-change.pollute(_, ['min', 'max']);
+var climateChange = require('climate-change');
+climateChange.pollute(_, ['min', 'max']);
 min([1, 2, 3])
 ```
 
@@ -21,13 +21,13 @@ Takes a variable pointing to a library and a optional array with strings of func
 names to include in the global namespace.
 
 ```javascript
-climate-change.pollute(_);
+climateChange.pollute(_);
 ```
 
 Will make all of underscore's functions available in the global namespace.
 
 ```javascript
-climate-change.pollute(_, ['map', 'filter']);
+climateChange.pollute(_, ['map', 'filter']);
 ```
 
 Will make just the map and filter functions available in the global namespace.
